@@ -1,0 +1,54 @@
+#btn_add{
+    background-color: #008000;
+}
+
+#btn_del{
+    background-color: #8B0000;
+}
+
+/* a{
+    font-size: 30px;
+} */
+
+#tabelaBuscar{
+    text-align: left;
+    justify-content: center;
+}
+
+
+/* tr:hover {
+    background-color: rgb(100, 100, 100);
+} */
+
+body{
+    padding: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    padding: 5px;
+    outline: unset;
+    width: 90%;
+    align-self: center;
+    border: 1px solid #008000;
+    border-radius: 20px;
+}
+
+form label{
+    padding: 10px;
+    align-self: center;
+}
+
+input[name="mysubmit"] {
+    margin-top: 20px;
+  }
+
+  input[name="mysubmit"]:hover {
+    background-color: #008000;
+    color: #ffffff;
+  }
